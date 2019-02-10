@@ -1,0 +1,148 @@
+.TeamInfo{
+
+  padding: var(--base_space);
+}
+
+
+.TeamInfo section{
+
+  margin-bottom: var(--big_space);
+}
+.TeamInfo section:last-child{
+
+  margin-bottom: 0;
+}
+
+.TeamInfo section h3{
+
+  color: var(--primary_color);
+  font-size: var(--font-size-l);
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+}
+
+.TeamInfo .team-overview{
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.TeamInfo .team-overview img{
+
+  max-width: 72px;
+  margin-right: 16px;
+}
+.TeamInfo .team-overview div{
+
+  flex-grow: 1;
+}
+
+
+.TeamInfo .team-overview h2{
+
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.TeamInfo .team-overview .more{
+
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--font-size-x);
+}
+
+.TeamInfo .competitions{
+
+}
+
+.TeamInfo .competitions div{
+
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+
+.TeamInfo .competitions div.loading{
+
+  min-width: 140px;
+  min-height: 40px;
+}
+
+.TeamInfo .competitions div.label{
+
+  background: #fff;
+  color: #000;
+  padding: 12px;
+  border-radius: var(--soft_radius);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: var(--font-size-x);
+}
+
+
+.TeamInfo .players{
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.TeamInfo .players li{
+
+  padding: 16px;
+  background: var(--primary_dark);
+  border-radius: var(--soft_radius);
+  margin-bottom: 16px;
+}
+
+.TeamInfo .players .title{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.TeamInfo .players .title span:last-child{
+
+  transition: all 0.5s;
+}
+
+.TeamInfo .players .info{
+
+  display: flex;
+  height: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.TeamInfo .players .expand .title span:last-child{
+
+  transform: rotate(180deg);
+}
+
+
+.TeamInfo .players .expand .info{
+  padding-top: 8px;
+  height: 32px;
+  opacity: 1;
+}
+
+
+.TeamInfo .players .info > div{
+
+  margin-right: 12px;
+}
+
+.TeamInfo .players li svg{
+
+  height: 30px;
+}
+.TeamInfo .players li span:last-child{
+
+  color: #757575;
+  text-transform: uppercase;
+  font-size: var(--font-size-x);
+}

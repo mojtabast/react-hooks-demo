@@ -1,0 +1,25 @@
+.Card{
+
+  background-color: var(--secondary_dark);
+  border-radius: var(--base_radius);
+}
+
+.Card-title{
+
+  margin-bottom: var(--base_space);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Card-title h3{
+
+  margin: 0;
+  font-size: var(--font-size-l);
+  color: var(--primary_color);
+}
+
+.Card-title span{
+  font-size: var(--font-size-x);
+  font-weight: bold;
+}

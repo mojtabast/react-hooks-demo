@@ -1,0 +1,53 @@
+.TeamsList{
+
+  background-color: var(--secondary_dark);
+  border-radius: var(--base_radius);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.TeamsList li{
+
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.TeamsList li a{
+
+  display: block;
+  padding: var(--base_space) 0;
+}
+
+.TeamsList li a img{
+
+  display: inline-block;
+  height: 72px;
+}
+
+.TeamsList li a span{
+
+  display: block;
+}
+
+.TeamsList li a span.name{
+
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+
+.TeamsList li a span.country{
+
+  margin-top: 8px;
+  color: var(--light_color);
+  font-size: var(--font-size-x);
+}
+
+
+.TeamsList li a:hover{
+
+  background: var(--primary_color);
+}

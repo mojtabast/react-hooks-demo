@@ -1,0 +1,42 @@
+:root {
+
+  /* colors */
+  --primary_color: #f6c90e;
+  --light_color: #eeeeee;
+  --primary_dark: #303841;
+  --secondary_dark: #3a4750;
+
+  /* typography */
+  --font-size-x: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 24px;
+
+  /* border radius */
+  --soft_radius: 10px;
+  --base_radius: 30px;
+
+  /* spaces */
+  --half_space: 12px;
+  --base_space: 24px;
+  --mid_space: 32px;
+  --double_space: 48px;
+  --big_space: 64px;
+}
+
+body {
+  background: var(--primary_dark);
+  font: var(--font-size-m) 'Roboto', sans-serif;
+  color: #fff;
+}
+
+a{
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.App {
+
+  max-width: 600px;
+  margin: auto;
+}

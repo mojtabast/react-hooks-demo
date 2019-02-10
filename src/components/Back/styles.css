@@ -1,0 +1,19 @@
+.Back{
+
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+.Back span:first-child{
+
+  margin-right: 4px;
+}
+
+
+.Back:hover{
+
+  color: var(--primary_color);
+}

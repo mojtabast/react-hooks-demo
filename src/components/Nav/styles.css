@@ -1,0 +1,19 @@
+nav{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--big_space);
+}
+
+nav h2{
+
+  font-weight: normal;
+  margin: 0;
+  font-size: var(--font-size-x);
+}
+
+nav a{
+
+  font-size: var(--font-size-x);
+}
