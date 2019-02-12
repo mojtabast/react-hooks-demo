@@ -1,6 +1,6 @@
 Hi, This is a repository for my "How to write your web application by only using React Hooks" blog post.
 
-[Online Demo](https://react-hooks-demo-ptfv5iu7g.now.sh/) | [Persian Article](https://01.mojtabast.com/react-hooks-webapp)
+[Online Demo](https://react-hooks-demo-gmdduwejj.now.sh) | [Persian Article](https://01.mojtabast.com/react-hooks-webapp)
 
 # Usage
 
