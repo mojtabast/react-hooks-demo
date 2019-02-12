@@ -25,7 +25,8 @@
 
 body {
   background: var(--primary_dark);
-  font: var(--font-size-m) 'Roboto', sans-serif;
+  font-size: var(--font-size-m);
+  font-family: 'Roboto', sans-serif;
   color: #fff;
 }
 

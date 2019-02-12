@@ -10,6 +10,7 @@ var TeamInfoContext = React.createContext();
 
 function Team(props) {
 
+  // Getting team id from route
   var teamId = props.id;
   var team = useFetchTeamInformation(teamId);
 
